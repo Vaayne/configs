@@ -1,2 +1,2 @@
-# docker-files
-Backup of some docker files
+# configs
+Some useful configs
