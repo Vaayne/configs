@@ -1,0 +1,13 @@
+[user]
+	email = lyishaou@gmail.com
+	name = Vaayne
+[alias]
+	st = status
+	cm = commit -m
+	pl = pull
+	ps = push origin HEAD
+	d = diff
+	co = checkout
+	cl = clone
+	l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	
