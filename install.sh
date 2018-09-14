@@ -17,3 +17,8 @@ sudo apt-get update
 sudo apt-get install -y docker-ce
 sudo usermod -aG docker ${USER}
 docker run hello-world
+
+
+## Run Shadowsocks
+docker run --restart always --name ss -e SERVER_ADDR=0.0.0.0 -e PASSWORD=password -p 8388:8388 -p 8388:8388/udp -d shadowsocks/shadowsocks-libev
+
