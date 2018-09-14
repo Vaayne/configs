@@ -5,7 +5,10 @@ sudo apt-get install -y tmux zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # copy tmux config
-wget https://raw.githubusercontent.com/Vaayne/configs/master/tmux.conf && mv tmux.conf .tmux.conf
+wget https://raw.githubusercontent.com/Vaayne/configs/master/tmux.conf -O .tmux.conf
+
+# copy git config
+wget https://raw.githubusercontent.com/Vaayne/configs/master/gitconfig -O .gitconfig
 
 
 ## Install Docker
