@@ -1,6 +1,3 @@
-[user]
-	email = lyishaou@gmail.com
-	name = Vaayne
 [alias]
 	st = status
 	cm = commit -m
